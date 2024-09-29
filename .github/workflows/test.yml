@@ -6,7 +6,7 @@ on:
 jobs:
 
   test:
-    runs-on: ubunto-latest
+    runs-on: ubuntu:jammy-20230308
 
     steps:
       - uses: actions/checkout@v3
